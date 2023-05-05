@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
+  </head>
+  <body class="bg-fixed bg-cover bg-center bg-no-repeat flex justify-center items-center" style="background-image: url('images/Background.jpg')">
+    <div class="container mx-auto mt-4 text-left">
+        <h1 class="text-white text-4xl font-bold mb-4 mt-5">Weather App</h1>
+        <form id="search-form" class="mb-4">
+          <input type="text" id="search-input" class="border rounded px-4 py-2 mr-2" placeholder="Enter a city">
+          <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Search</button>
+        </form>
+      <div id="weather-results" class="bg-white p-8 rounded shadow w-1/4"></div>
+    </div>
+    <script src="../src/modules/weather.js"></script>
+  </body>
+</html>
