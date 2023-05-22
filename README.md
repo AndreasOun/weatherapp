@@ -1,6 +1,6 @@
 # Weather-App
 
-Made with HTML5, Tailwind CSS, Javascript and Node.js
+Made with HTML5, Tailwind CSS, Javascript.
 API is from https://openweathermap.org/api
 
 # Features
